@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>nothing</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<!-- Header -->
+				<section id="header" class="skel-layers-fixed">
+					<header>
+						<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+						<h1 id="logo"><a href="#">hwp</a></h1>
+						<p>干啥呢，干啥呢<br />
+						</p>
+					</header>
+					<nav id="nav">
+						<ul>
+							<li><a href="#one" class="active">简述</a></li>
+							<li><a href="#two">推荐</a></li>
+							<li><a href="#three">技术文章</a></li>
+							<li><a href="#four">联系我吧</a></li>
+						</ul>
+					</nav>
+					<footer>
+						<ul class="icons">
+							<li><a href="http://weibo.com/2096002583/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" class="icon fa-weibo"><span class="label">微博</span></a></li>
+							<li><a href="avascript:void(0)" onMouseOut="hideImg()"  onmouseover="showImg()" class="icon fa-weixin"><span class="label">微信</span></a></li>
+							<div id="wxImg" style="display:none;back-ground:#f00;position:absolute;left:0px;top:-200px">
+								<img src="images/erweima.jpg" style="width:200px;height:200px"class="img-responsive wow fadeInUp">
+							</div>
+
+
+						</ul>
+					</footer>
+				</section>
+
+			<!-- Main -->
+				<div id="main">
+
+					<!-- One -->
+						<section id="one">
+							<div class="container">
+								<header class="major">
+									<h2>干这行的就好好干</h2>
+									<p>这行挺苦，没有尽头，前方路远，仍需前行<br />
+									</p>
+								</header>
+								<p>从事移动端开发多年，不敢说认识多深，但趟了不少坑，每每越到问题痛苦的时候，（都特想骂产品汪，设计的如何之烂，感谢产品汪，折磨着我们多年。深似海啊）</p>
+							</div>
+						</section>
+
+					<!-- Two -->
+						<section id="two">
+							<div class="container">
+								<h3>简介-技术走的坑</h3>
+								<p>杂谈一些相关技术.</p>
+								<ul class="feature-icons">
+									<li class="fa-code">写代码，懂代码</li>
+									<li class="fa-cubes">技术积累</li>
+									<li class="fa-book">相关书记</li>
+									<li class="fa-coffee">扯淡文章</li>
+									<li class="fa-bolt">万能开源</li>
+									<li class="fa-users">社群分享</li>
+								</ul>
+							</div>
+						</section>
+
+					<!-- Three -->
+						<section id="three">
+							<div class="container">
+								<h3>一些小小的心得</h3>
+								<p>研发，设计，数据，服务。大大小小的问题，怕自己忘，写一下，</p>
+								<div class="features">
+									<article>
+										<a  class="image"><img src="images/pic01.jpg" alt="" /></a>
+										<div href="acticle/android_chajian.html" class="inner">
+											<h4>Android中插件开发篇之----应用换肤原理解析</h4>
+											<p>现在市场上有很多应用都有换肤的功能，就是能够提供给用户一些皮肤包，然后下载，替换。而且有些皮肤是要收费的。对于这个功能的话，其实没有什么技术难度的，但是他包含了一个现阶段很火的一个技术：动态加载</p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Android中的动态加载机制</h4>
+											<p>在目前的软硬件环境下，Native App与Web App在用户体验上有着明显的优势，但在实际项目中有些会因为业务的频繁变更而频繁的升级客户端，造成较差的用户体验，而这也恰恰是Web App的优势。本文对网上Android动态加载jar的资料进行梳理和实践在这里与大家一起分享，试图改善频繁升级这一弊病。
+Android应用开发在一般情况下，常规的开发方式和代码架构就能满足我们的普通需求。但是有些特殊问题，常常引发我们进一步的沉思。我们从沉思中产生顿悟，从而产生新的技术形式。</p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Android中如何搭建一个WebServer</h4>
+											<p>需求：
+希望移动端的用户标识(IMEI)和HTML页面的用户标识(Cookie)连接起来，其中HTML页面可能是用户使用PC访问指定的html页面也有可能是移动端使用浏览器访问html页面
+
+技术解决：
+运用移动设备的系统特型，用Apps的Service监听本地的网络端口，当局域网内或本机的Html页面通过请求调用本地IP:Port时触发监听。Apps在将当前Html的Cookie和移动设备标识物发回服务端时，即实现了本次PC/Mobile Html页面的Cookie和移动设备的互相绑定。</p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+										<div class="inner">
+											<h4> Android实现通过浏览器点击链接打开本地应用（APP）并拿到浏览器传递的数据</h4>
+											<p>点击浏览器中的URL链接，启动特定的App。
+首先做成HTML的页面，页面内容格式如下：
+[scheme]://[host]/[path]?[query]">启动应用程序 ,如果是这样的话那你就想简单了。。。</p>
+										</div>
+									</article>
+									<article>
+										<div class="inner">
+											<h4>Android中插件开发篇总结和概述</h4>
+											<p>这是一篇干货的文章，有兴趣的大家可以一起研究一下http://blog.csdn.net/jiangwei0910410003/article/details/48104581</p>
+										</div>
+									</article>
+
+									<article>
+										<div class="inner">
+											<h4> Android中实现Activity的启动拦截之</h4>
+											<p>不过实现了拦截Activity启动技术实现之后，我们还会发现这个技术在很多地方都会用到。关于注入技术需要关注的文章：
+http://blog.csdn.net/jiangwei0910410003/article/details/40949475
+看完这篇文章，才能理解注入技术，才能看懂这篇文章。看完这篇文章之后，我们能看到三个文件：
+poison; libproxybinder.so; DemoInject3.apk
+关于这三个文件的作用就不多说了。看完文章就知道了。</p>
+										</div>
+									</article>
+									<article>
+										<div class="inner">
+											<h4>Android中当数据库需要更新时我们该怎么办？</h4>
+											<p>http://blog.csdn.net/jiangwei0910410003/article/details/39670813</p>
+										</div>
+									</article>
+									<article>
+										<div class="inner">
+											<h4> Android中如何做到自定义的广播只能有指定的app接收</h4>									
+										</div>
+									</article>
+									<article>
+										<div class="inner">
+											<h4>Android中dp,px,sp概念梳理以及如何做到屏幕适配</h4>
+											</div>
+									</article>
+									<article>
+										<div class="inner">
+											<h4> Andrdoid中对应用程序的行为拦截实现方式之----从Java层进行拦截</h4>
+											<p>今天周日，昨天花了一天的时间总算是搞定了，问题还是想对应用程序的行为进行拦截的操作，就是像小米手机一样，哪些应用在获取你什么权限的信息。在之前写过对应用程序的行为进行拦截的方式(C层)实现的博客，在写完这篇之后，本来想是尽快的把Java层拦截的文章结束的，但是由于各种原因吧，所以一直没有时间去弄这些了。今天算是有空，就总结一下吧。下面进入正题：</p>
+										</div>
+									</article>
+									<article>
+										<div class="inner">
+											<h4> Android中插件开发篇之----类加载器</h4>
+											<p>关于插件，已经在各大平台上出现过很多，eclipse插件、chrome插件、3dmax插件，所有这些插件大概都为了在一个主程序中实现比较通用的功能，把业务相关或者让可以让用户自定义扩展的功能不附加在主程序中，主程序可在运行时安装和卸载。在Android如何实现插件也已经被广泛传播，实现的原理都是实现一套插件接口，把插件实现编成apk或者dex，然后在运行时使用DexClassLoader动态加载进来，不过在这个开发过程中会遇到很多的问题，所以这一片就先不介绍如何开发插件，而是先解决一下开发过程中会遇到的问题，这里主要就是介绍DexClassLoader这个类使用的过程中出现的错误</p>
+										</div>
+									</article>
+									<article>
+
+										<div class="inner">
+											<h4>Android中的Sqlite中的onCreate方法和onUpgrade方法的执行时机</h4>
+											<p>今天在做数据库升级的时候，遇到一个问题，就是onCreate方法和onUpgrade方法的执行时机的问题，这个当时在操作的时候，没有弄清楚，很是迷糊，所以写代码的时候出现了很多的问题，所以没办法就去扒源代码看了。不过在此之前我讲解过一篇关于数据库升级的文章，但是那里没有详细的讲解一下这两个方法的执行时机，所以这里就在单独说一下</p>
+										</div>
+									</article>
+
+								</div>
+							</div>
+						</section>
+		</div>
+
+		<script type="text/javascript">
+		function  showImg(){
+		document.getElementById("wxImg").style.display='block';
+		}
+		function hideImg(){
+		document.getElementById("wxImg").style.display='none';
+		}
+		</script>
+	</body>
+</html>
